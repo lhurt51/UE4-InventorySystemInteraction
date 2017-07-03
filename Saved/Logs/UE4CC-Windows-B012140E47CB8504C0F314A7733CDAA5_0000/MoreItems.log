@@ -1,0 +1,170 @@
+﻿Log file open, 07/02/17 20:31:02
+LogInit:Display: Running engine for game: MoreItems
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1902676877) SRandInit(1902676877).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.091206
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.03-03.31.03:908][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.03-03.31.03:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.03-03.31.03:952][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.07.03-03.31.03:952][  0]LogInit: User: Liam
+[2017.07.03-03.31.03:952][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.03-03.31.03:952][  0]LogInit: High frequency timer resolution =3.906384 MHz
+[2017.07.03-03.31.03:953][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.03-03.31.03:953][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.03-03.31.03:953][  0]LogMemory: Process Physical Memory: 263.60 MB used, 263.60 MB peak
+[2017.07.03-03.31.03:953][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2017.07.03-03.31.03:953][  0]LogMemory: Physical Memory: 5831.70 MB used,  10499.30 MB free, 16331.00 MB total
+[2017.07.03-03.31.03:953][  0]LogMemory: Virtual Memory: 645.25 MB used,  10499.30 MB free, 134217728.00 MB total
+[2017.07.03-03.31.04:292][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.07.03-03.31.06:933][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.03-03.31.07:437][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.07.03-03.31.07:437][  0]LogD3D11RHI:       4063/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.03-03.31.07:440][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.03-03.31.07:440][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.03-03.31.07:440][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.03-03.31.07:447][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.03-03.31.07:447][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.03-03.31.07:447][  0]LogWindows: EnumDisplayDevices:
+[2017.07.03-03.31.07:447][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.07.03-03.31.07:447][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.07.03-03.31.07:447][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.07.03-03.31.07:447][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.07.03-03.31.07:448][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.03-03.31.07:448][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.07.03-03.31.07:448][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.03-03.31.07:448][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.03-03.31.07:448][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.03-03.31.07:937][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.03-03.31.07:938][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.03-03.31.07:981][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.03-03.31.07:983][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/MoreItems/Intermediate/Shaders/WorkingDirectory/12844/).
+[2017.07.03-03.31.07:983][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/DA1BC1A44DE6524F1406E49BB4C40DB5/'.
+[2017.07.03-03.31.07:983][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.03-03.31.10:403][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.03-03.31.10:498][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.03-03.31.10:602][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.03-03.31.10:694][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.03-03.31.10:791][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.03-03.31.10:885][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.03-03.31.10:975][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.03-03.31.11:069][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.03-03.31.11:146][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.03-03.31.11:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.03-03.31.11:323][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.03-03.31.11:410][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.03-03.31.11:498][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.03-03.31.11:587][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.03-03.31.11:674][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.03-03.31.11:848][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.03-03.31.11:848][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.03-03.31.11:917][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.03-03.31.12:065][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.03-03.31.12:122][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.03-03.31.12:209][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.03-03.31.12:296][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.03-03.31.12:383][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.03-03.31.12:474][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.03-03.31.12:474][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.03-03.31.13:293][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.03-03.31.13:387][  0]LogDerivedDataCache: Loaded boot cache 0.09s 51MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.03-03.31.13:387][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.03-03.31.13:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/MoreItems/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.03-03.31.13:387][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.03-03.31.13:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/MoreItems/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.03-03.31.13:387][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.03-03.31.13:415][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.03-03.31.13:427][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.03-03.31.13:441][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.03-03.31.13:456][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.03-03.31.13:456][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.03-03.31.14:128][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.03-03.31.14:132][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.03-03.31.14:456][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.03-03.31.14:529][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.03-03.31.14:609][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.03-03.31.14:609][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.03-03.31.14:609][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.03-03.31.15:899][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: moreitems, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1337064013
+[2017.07.03-03.31.15:961][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.07.03-03.31.16:053][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.051223 seconds
+[2017.07.03-03.31.16:060][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.03-03.31.16:060][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.07.03-03.31.16:060][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.03-03.31.16:179][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.03-03.31.19:712][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.03-03.31.19:783][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.03-03.31.20:743][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.493 s
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: 
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1624]
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: Stack: 
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D45D95E6
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D4389B82
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D439B666
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000CDEC0C55
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-MoreItems-5019.dll!AFire::AFire() [c:\users\liam\documents\unreal projects\moreitems\source\moreitems\fire.cpp:26]
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-MoreItems-5019.dll!InternalConstructor<AFire>()
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D607248F
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D620A310
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D61EC5B0
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D6075AB7
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D4237173
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D43FC70A
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Projects.dll!0x00000000F938B4F2
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor-Projects.dll!0x00000000F938B838
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor.exe!0x0000000064E62951
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor.exe!0x0000000064E66A02
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor.exe!0x0000000064E5E96A
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor.exe!0x0000000064E5EBBA
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor.exe!0x0000000064E70A29
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: UE4Editor.exe!0x0000000064E722B6
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: KERNEL32.DLL!0x0000000010558364
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: ntdll.dll!0x00000000108B70D1
+[2017.07.03-03.31.20:743][  0]LogOutputDevice:Error: 
+[2017.07.03-03.31.20:745][  0]LogStats:                SubmitErrorReport -  0.000 s
